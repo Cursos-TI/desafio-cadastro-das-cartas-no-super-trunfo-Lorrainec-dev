@@ -2,7 +2,7 @@
 
 int main() {
 
-    char estado [5]; 
+    char estado [2]; 
     char codigo [5];
     char cidade [15];
     int populacao;
@@ -73,8 +73,9 @@ int main() {
     printf("Cidade: %s \n", cidade);
     printf("População: %d \n", populacao);
     printf("Pontos Turisticos: %d \n" , PontosTuristicos);
-    printf("Área total: %f KM²\n", area);
+    printf("Área total: %f KM² \n", area);
     printf("PIB: %f Bilhões de Reais\n", PIB);
+
 
     return 0;
 } 
